@@ -22,7 +22,7 @@ int y = 1;
 rbt_node* new = rbt_newNode(&y, sizeof(int));
 rbt_insert(tree, new);  
 ```
-you can also:
+you can also do:
 ```C
 rbt_insert(tree, rbt_newNode(&y, sizeof(int));
 ``` 
